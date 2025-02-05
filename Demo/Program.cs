@@ -189,7 +189,7 @@ namespace Demo
 
             channel.Uploaded += S01.Notify;
             channel.Uploaded += S02.Notify;
-            channel.Uploaded += S03.Notify;
+            channel.Uploaded += S03.Notify; 
             channel.Uploaded += S04.Notify;
 
             channel.AddVideo(new Video() { Title = "Title 3", Description = "Description 3" });
